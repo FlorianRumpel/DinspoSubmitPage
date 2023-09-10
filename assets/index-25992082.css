@@ -42,7 +42,7 @@ h1 {
 
 @media (max-width: 900px) {
 	.card-wrapper {
-		grid-template-columns: 1fr
+		grid-template-columns: 300px
 	}
 }
 
