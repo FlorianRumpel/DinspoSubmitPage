@@ -35,22 +35,22 @@ h1 {
 .card-wrapper {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	gap: 1rem;
+	row-gap: 1rem;
 	max-width: 70%;
 	margin-inline: auto
 }
 
 @media (max-width: 900px) {
 	.card-wrapper {
-		grid-template-columns: 300px
+		grid-template-columns:1fr
 	}
 }
 
 .card {
 	text-align: center;
-	background-color: red;
+	background-color:#fff;
 	border-radius: 1rem; 
-	
+	padding:1rem;
 	word-break: break-all;
 }
 
