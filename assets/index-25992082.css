@@ -37,7 +37,8 @@ h1 {
 	grid-template-columns: 1fr 1fr;
     gap: 1rem;
 	max-width: 70%;
-	margin-inline: auto
+	margin-inline: auto;
+	padding-bottom:1rem;
 }
 
 @media (max-width: 900px) {
